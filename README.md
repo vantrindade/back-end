@@ -14,6 +14,7 @@ Armazenar projetos back-end desenvolvidos com Node.js, do nível básico ao inte
 # Tecnologias em estudo
 
 - JavaScript (ES6+)
+- typescript
 - Node.js
 - Express.js
 - Git & GitHub
@@ -21,30 +22,6 @@ Armazenar projetos back-end desenvolvidos com Node.js, do nível básico ao inte
 - API REST
 - JSON
 - HTTP
-
----
-
-# Organização dos projetos
-
-Cada projeto deste repositório seguirá o padrão:
-
-- README próprio explicando o projeto
-- Descrição do problema resolvido
-- Tecnologias utilizadas
-- Instruções para rodar o projeto localmente
-- Endpoints da API (quando aplicável)
-
----
-
-# Roadmap de estudos
-
-- [ ] Fundamentos do Node.js
-- [ ] CRUD com Express
-- [ ] Estruturação de APIs REST
-- [ ] Integração com banco de dados
-- [ ] Autenticação e autorização (JWT)
-- [ ] Validação de dados
-- [ ] Deploy de API
 
 ---
 
@@ -62,4 +39,3 @@ Atualmente focado em aprendizado prático e buscando minha **primeira oportunida
 - Email: vantrindade.matheus@gmail.com
 
 - LinkedIn: https://www.linkedin.com/in/seu-link
-- Email: seuemail@email.com
