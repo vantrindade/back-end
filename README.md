@@ -38,4 +38,4 @@ Atualmente focado em aprendizado prático e buscando minha **primeira oportunida
   
 - Email: vantrindade.matheus@gmail.com
 
-- LinkedIn: https://www.linkedin.com/in/seu-link
+- celular: (11) 99945-0057
