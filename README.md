@@ -1,8 +1,7 @@
 # Matheus Ferreira Trindade
 
 Desenvolvedor **Back-end em formação**, com foco em **Node.js** e construção de **APIs REST**.  
-Este repositório será utilizado para registrar projetos
-
+Este repositório será utilizado para registrar minha evolução prática no desenvolvimento back-end.
 ---
 
 # Objetivo
