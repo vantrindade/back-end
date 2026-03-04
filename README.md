@@ -1,34 +1,69 @@
 # Matheus Ferreira Trindade
 
-Desenvolvedor **Back-end em formação**, com foco em **Node.js** e construção de **APIs REST**.  
-Este repositório será utilizado para registrar minha evolução prática no desenvolvimento back-end.
----
+README – Sistema de Perguntas e Respostas
 
-# Objetivo
+ Sistema de Perguntas e Respostas
 
-Armazenar projetos back-end desenvolvidos com Node.js, do nível básico ao intermediário, aplicando boas práticas de código, organização de projetos e conceitos fundamentais de APIs.
+Projeto guaido
 
----
+Aplicação web desenvolvida com foco em backend utilizando Node.js e banco de dados relacional.
+O sistema permite criar perguntas, visualizar perguntas cadastradas e responder perguntas específicas, mantendo relacionamento entre dados no banco.
 
-# Tecnologias em estudo
+O projeto simula uma versão simplificada de plataformas como Stack Overflow.
 
-- JavaScript (ES6+)
-- typescript
-- Node.js
-- Express.js
-- Git & GitHub
-- Banco de dados (MongoDB / PostgreSQL – em aprendizado)
-- API REST
-- JSON
-- HTTP
+ Tecnologias Utilizadas
 
----
+Node.js – Ambiente de execução JavaScript no servidor
 
-# Status atual
+Express – Framework para criação do servidor e gerenciamento de rotas
 
-Atualmente focado em aprendizado prático e buscando minha **primeira oportunidade como desenvolvedor back-end júnior**.
+Sequelize – ORM para manipulação do banco de dados
 
----
+MySQL – Banco de dados relacional
+
+EJS – Template engine para renderização dinâmica das páginas
+
+ Funcionalidades
+
+ Criar perguntas
+ Listar perguntas cadastradas
+ Visualizar pergunta individual
+ Responder perguntas
+ Listar respostas relacionadas
+ Ordenação das perguntas por ID (DESC)
+ Relacionamento entre tabelas (Pergunta → Resposta)
+
+ Arquitetura
+
+O projeto foi estruturado utilizando o padrão MVC:
+
+Models → Definição das entidades Pergunta e Resposta
+
+Views (EJS) → Renderização dinâmica das páginas
+
+Controllers (Rotas Express) → Regras de negócio e manipulação de dados
+
+Aprendizados e Conceitos Aplicados
+
+Durante o desenvolvimento deste projeto, foram praticados:
+
+Conexão e autenticação com banco de dados
+
+Criação e sincronização de models
+
+Operações CRUD com Sequelize (create, findAll, findOne)
+
+Relacionamento entre tabelas via chave estrangeira
+
+Rotas dinâmicas com parâmetros (/:id)
+
+Uso de middleware (express.urlencoded, express.json)
+
+Renderização server-side
+
+Redirecionamento após requisições
+
+Organização modular de código
 
 # Contato
 
