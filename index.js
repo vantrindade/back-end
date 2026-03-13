@@ -50,6 +50,20 @@ app.post('/salvarpergunta',(req, res) => {  //rota para enviar dados para sql
     })
 });
 
+ // apagar o pergunta
+app.post('/apagarpergunta', (req, res) => {
+
+ let id = req.body.id;
+
+if(!isNaN(id)){
+    Pergunta.destroy({
+        where: { id: id }
+    }).then(() => {
+        res.redirect('/perguntas_feitas');
+    });
+}
+});
+
 
 app.get('/responder_pergunta_feita/:id', (req, res) => {
 
@@ -77,6 +91,8 @@ app.get('/responder_pergunta_feita/:id', (req, res) => {
         }
 
     });
+
+    
 
 });
 
